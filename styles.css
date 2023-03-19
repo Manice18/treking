@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+.parent {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.overlay {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: #000;
+  opacity: 0.7;
+}
+.image {
+  background: url(images/cover.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: fill;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 6rem;
+}
+.first,
+.second {
+  margin: 0 15px;
+}
+.first {
+  opacity: 0.3;
+}
+.second {
+  margin-top: 60px;
+}
+.side-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  width: 50%;
+  height: 35%;
+  bottom: 0;
+  z-index: 3;
+  margin: 0 200px;
+}
+.nextmsg {
+  margin: 20px 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  text-transform: none;
+  opacity: 0.5;
+}
+.side-text {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  writing-mode: vertical-lr;
+  height: 80%;
+  rotate: z 180deg;
+  z-index: 2;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.vertical-bar {
+  display: inline;
+  background-color: #ffffff;
+  height: 40%;
+  margin-left: 60px;
+  bottom: 0;
+  width: 30px;
+  position: absolute;
+  z-index: 3;
+  opacity: 0.5;
+}
+.click >button
+{
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #ffffff;
+ 
+  background-color: #325047;
+border-radius: .5rem;
+position: absolute;
+z-index: 3;
+bottom: 0;
+margin: 2.5rem 12.5rem;
+}
+button:hover{
+  color: #ffffff;
+  background-color: orange;
+  cursor: pointer;
+}
