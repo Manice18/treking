@@ -1,0 +1,69 @@
+ 
+
+  "stateName": "West Bengal",
+  "dest": [
+    {
+      "desName": "Sandakphu Phalut Trek",
+      "desc": "Elevation: 3,636 meters, Difficulty: 60%, Sandakphu Phalut Trek: Magnificent views of four highest peaks in the world."
+    },
+    {
+      "desName": "Singalila Ridge Trek",
+      "desc":"Elevation: 3,657 meters, Difficulty: 50-60%, Journey through rhododendron forests and stunning views of Mount Everest and Kanchenjunga. "
+    },
+    {
+      "desName": "Neora Valley Trek",
+      "desc": "Elevation:3,152 meters, Difficulty: 40-50%, Journey through pristine forests and rare flora and fauna."
+    }
+  ]
+
+
+
+
+  "stateName": "UttaraKhand",
+  "dest": [
+    {
+      "desName": "Valley of Flowers Trek",
+      "desc": "Elevation: 3,858 meters, Difficulty: 30-40%, A colorful carpet of alpine flowers amidst the Himalayas."
+    },
+    {
+      "desName": "Roopkund Trek",
+     "desc": "Elevation: 5,029 meters, Difficulty: 65%,  A thrilling expedition to a skeleton lake."
+    },
+    {
+      "desName": "Kedarkantha Trek",
+      "desc": "Elevation: 3,810 meters, Difficulty: 45%,  A winter wonderland adventure in the Himalayas."
+    }
+  ]
+
+
+"stateName": "Sikkim",
+  "dest": [
+    {
+      "desName": "Goecha La Trek",
+      "desc": "Elevation: 4,940 meters, Difficulty: 60%, Majestic views of Kanchenjunga from high mountain pass."
+    },
+    {
+      "desName": "Dzongri Trek",
+      "desc": "Elevation: 4,200 meters, Difficulty: 40%,  Rhododendron forests, Himalayan peaks and moderate difficulty."
+    },
+     {
+      "desName": "Kanchenjunga Base Camp Trek",
+      "desc": "Elevation: 5,143 meters, Difficulty: 70%,  Rugged terrain, snowcapped peaks, challenging trek."
+    },
+ ]
+
+ "stateName": "Tamil Nadu",
+  "dest": [
+    {
+      "desName": "Kolli Hills Trek",
+      "desc": "Elevation: 1350 meters, Difficulty: Moderate, Scenic mountain views and ancient temples."
+    {
+      "desName": "Nagalapuram Trek",
+      "desc": "Elevation: 800 meters, Difficulty: Moderate, Scenic waterfall trek near Chennai"
+     {
+      "desName": "Meghamalai Trek",
+      "desc": "Elevation: 1,500 meters, Difficulty: Moderate, Offbeat hill station trek"
+    },
+ ]
+
+
