@@ -1,0 +1,111 @@
+{
+"stateName": "Andhra Pradesh",
+"desName": ["Araku Valley Trek", "Kondaveedu Trek", "Horsley Hills Trek"],
+"desc": ["Araku Valley Trek takes you through the stunning hills, lush green forests, and coffee plantations in Araku Valley.",
+"Kondaveedu Trek offers a panoramic view of the hills, valleys, and ancient forts in Andhra Pradesh.",
+"Horsley Hills Trek is known for its picturesque landscapes, trekking trails, and dense forests." ]
+}
+
+{
+"stateName": "Arunachal Pradesh",
+"desName": ["Talle Valley Trek", "Bomdila-Tawang Trek", "Gorichen Peak Trek"],
+"desc": ["Talle Valley Trek is a moderate trek that offers stunning views of the Talle Valley and the surrounding peaks.",
+"Bomdila-Tawang Trek takes you through some of the most beautiful valleys, passes, and high-altitude lakes in Arunachal Pradesh.",
+"Gorichen Peak Trek is a challenging trek that takes you to the summit of the Gorichen Peak, the highest peak in Arunachal Pradesh." ]
+}
+
+{
+"stateName": "Assam",
+"desName": ["Pabitora Wildlife Sanctuary Trek", "Nameri National Park Trek", "Manas National Park Trek"],
+"desc": ["Pabitora Wildlife Sanctuary Trek takes you through the dense forests of Pabitora Wildlife Sanctuary, which is home to the Indian one-horned rhinoceros.",
+"Nameri National Park Trek offers a great opportunity to explore the lush green forests and diverse wildlife of the Nameri National Park.",
+"Manas National Park Trek takes you through the beautiful landscapes and dense forests of Manas National Park, which is home to tigers, elephants, and many other species of wildlife." ]
+}
+
+{
+"stateName": "Bihar",
+"desName": ["Rajgir Trek", "Pawapuri Trek", "Valmiki National Park Trek"],
+"desc": ["Rajgir Trek takes you through the scenic hills and valleys of Rajgir, which is known for its historical and religious significance.",
+"Pawapuri Trek takes you to the holy city of Pawapuri, which is known for its ancient temples and serene environment.",
+"Valmiki National Park Trek takes you through the dense forests and scenic landscapes of Valmiki National Park, which is home to tigers, leopards, and many other species of wildlife." ]
+}
+
+{
+"stateName": "Chhattisgarh",
+"desName": ["Bhoramdeo Jungle Trek", "Chitrakoot Falls Trek", "Barnawapara Wildlife Sanctuary Trek"],
+"desc": ["Bhoramdeo Jungle Trek takes you through the lush green forests and beautiful landscapes of Bhoramdeo Wildlife Sanctuary.",
+"Chitrakoot Falls Trek takes you to the majestic Chitrakoot Falls, which is known for its scenic beauty and tranquility.",
+"Barnawapara Wildlife Sanctuary Trek takes you through the dense forests and grasslands of Barnawapara Wildlife Sanctuary, which is home to a variety of wildlife, including tigers, leopards, and sloth bears." ]
+}
+
+Goa:
+{
+"stateName": "Goa",
+"desName": ["Dudhsagar Falls Trek", "Tambdi Surla Waterfall Trek", "Netravali Wildlife Sanctuary Trek"],
+"desc": ["The Dudhsagar Falls Trek takes you through the lush green forests and stunning waterfalls of the Western Ghats.", "The Tambdi Surla Waterfall Trek takes you to the picturesque Tambdi Surla Waterfall through dense forests.", "The Netravali Wildlife Sanctuary Trek is a great way to explore the beautiful wildlife and landscapes of Goa."]
+}
+
+Gujarat:
+{
+"stateName": "Gujarat",
+"desName": ["Saputara Trek", "Girnar Trek", "Siddhpur Trek"],
+"desc": ["The Saputara Trek takes you through the beautiful forests and hills of the Saputara Hill Station.", "The Girnar Trek takes you to the top of Mount Girnar, the highest peak in Gujarat, and offers breathtaking views of the surrounding landscape.", "The Siddhpur Trek takes you through the ancient town of Siddhpur and its beautiful temples and monuments."]
+}
+
+Haryana:
+{
+"stateName": "Haryana",
+"desName": ["Karna Lake Trek", "Morni Hills Trek", "Asola Bhatti Wildlife Sanctuary Trek"],
+"desc": ["The Karna Lake Trek takes you through the beautiful Karna Lake and surrounding hills.", "The Morni Hills Trek takes you through the stunning Morni Hills and offers breathtaking views of the surrounding landscape.", "The Asola Bhatti Wildlife Sanctuary Trek takes you through the beautiful wildlife sanctuary and its stunning landscapes."]
+}
+
+Himachal Pradesh:
+{
+"stateName": "Himachal Pradesh",
+"desName": ["Triund Trek", "Hampta Pass Trek", "Indrahar Pass Trek"],
+"desc": ["The Triund Trek takes you through the beautiful Dhauladhar Range and offers stunning views of the surrounding landscape.", "The Hampta Pass Trek takes you through the stunning Kullu Valley and offers breathtaking views of the Himalayas.", "The Indrahar Pass Trek takes you to the top of the Indrahar Pass and offers stunning views of the surrounding landscape."]
+}
+
+Jharkhand:
+{
+"stateName": "Jharkhand",
+"desName": ["Panchghagh Falls Trek", "Hazaribagh National Park Trek", "Dalma Wildlife Sanctuary Trek"],
+"desc": ["The Panchghagh Falls Trek takes you through the beautiful Panchghagh Falls and surrounding forests.", "The Hazaribagh National Park Trek takes you through the stunning Hazaribagh National Park and offers a chance to see the beautiful wildlife of the area.", "The Dalma Wildlife Sanctuary Trek takes you through the beautiful Dalma Wildlife Sanctuary and its stunning landscapes."]
+}
+
+Karnataka:
+{
+"stateName": "Karnataka",
+"desName": ["Kudremukh Trek", "Kodachadri Trek", "Brahmagiri Trek"],
+"desc": ["The Kudremukh Trek takes you through the beautiful Kudremukh National Park and offers stunning views of the surrounding landscape.", "The Kodachadri Trek takes you to the top of the Kodachadri Hill and offers breathtaking views of the surrounding landscape.", "The Brahmagiri Trek takes you through the stunning Brahmagiri Wildlife Sanctuary and its beautiful landscapes."]
+}
+
+{
+"stateName": "Kerala",
+"desName": ["Chembra Peak Trek", "Agasthyakoodam Trek", "Meesapulimala Trek"],
+"desc": [
+"Chembra Peak Trek is a popular trek in Wayanad, Kerala. The trek takes you through scenic tea plantations and a heart-shaped lake at the top of the peak.",
+"Agasthyakoodam Trek is a challenging trek in the Western Ghats. The trek takes you through dense forests and offers breathtaking views of the surrounding mountains.",
+"Meesapulimala Trek is a beautiful trek in Munnar, Kerala. The trek takes you through lush green forests and offers stunning views of the Western Ghats."
+]
+}
+
+{
+"stateName": "Madhya Pradesh",
+"desName": ["Pachmarhi Trek", "Satpura Trek", "Pench Tiger Reserve Trek"],
+"desc": [
+"Pachmarhi Trek is a scenic trek in the Satpura Range. The trek takes you through beautiful waterfalls, dense forests, and offers stunning views of the surrounding valleys.",
+"Satpura Trek is a challenging trek in the Satpura Range. The trek takes you through dense forests, deep gorges, and offers breathtaking views of the surrounding mountains.",
+"Pench Tiger Reserve Trek is a unique trek in Madhya Pradesh. The trek takes you through the Pench Tiger Reserve and offers the chance to spot tigers, leopards, and other wildlife."
+]
+}
+
+{
+"stateName": "Maharashtra",
+"desName": ["Kalsubai Peak Trek", "Harishchandragad Trek", "Rajmachi Trek"],
+"desc": [
+"Kalsubai Peak Trek is a popular trek in Maharashtra. The trek takes you to the highest peak in the Western Ghats and offers stunning views of the surrounding mountains.",
+"Harishchandragad Trek is a challenging trek in the Sahyadri Range. The trek takes you through deep valleys, rocky terrain, and offers breathtaking views of the surrounding mountains.",
+"Rajmachi Trek is a beautiful trek in the Sahyadri Range. The trek takes you through lush green forests, ancient forts, and offers stunning views of the Western Ghats."
+]
+}
