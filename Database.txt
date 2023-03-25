@@ -56,14 +56,46 @@
   "dest": [
     {
       "desName": "Kolli Hills Trek",
-      "desc": "Elevation: 1350 meters, Difficulty: Moderate, Scenic mountain views and ancient temples."
+      "desc": "Elevation: 1350 meters, Difficulty: 6-7%, Scenic mountain views and ancient temples."
+      },
     {
       "desName": "Nagalapuram Trek",
-      "desc": "Elevation: 800 meters, Difficulty: Moderate, Scenic waterfall trek near Chennai"
+      "desc": "Elevation: 800 meters, Difficulty: 6.5%, Scenic waterfall trek near Chennai"
+      },
      {
       "desName": "Meghamalai Trek",
-      "desc": "Elevation: 1,500 meters, Difficulty: Moderate, Offbeat hill station trek"
+      "desc": "Elevation: 1,500 meters, Difficulty: 6.5-7%, Offbeat hill station trek"
     },
  ]
 
 
+ stateName": "Manipur",
+  "dest": [
+    {
+      "desName": "Mt. Koubru",
+      "desc": "Elevation: 2740 meters, Difficulty: 8%, Hike through dense forests and picturesque villages to reach the summit of Mt. Koubru"
+    },
+    {
+      "desName": "Shirui Kashong Peak",
+     "desc": "Elevation: 2825 meters, Difficulty: 6%, Embark on a moderate trek through the beautiful Dzukou Valley to summit the scenic Shirui Kashong Peak."
+    },
+    {
+      "desName": "Chingai Trail",
+      "desc": "Elevation: 1470 meters, Difficulty: 5%, Explore the lush forests and scenic villages of Manipur on the Chingai Trail ."
+    }
+  ]
+
+stateName": "Meghalaya",
+  "dest": [
+    {
+      "desName": "The Living Roots Bridge Trek",
+      "desc": "Elevation: 1500 meters, Difficulty: 4%, Experience the unique living roots bridges and stunning landscapes on this Meghalaya trek."
+    {
+      "desName": "David Scott Trail",
+     "desc": "Elevation: 1600 meters, Difficulty: 7%, Follow the footsteps of David Scott through the beautiful Khasi Hills in Meghalaya."
+    },
+    {
+      "desName": "Mawlyngot Trek",
+      "desc": "Elevation: 1814 meters, Difficulty: 5%, hike through picturesque landscapes to reach the summit of Mawlyngot in Meghalaya."
+    }
+  ]
