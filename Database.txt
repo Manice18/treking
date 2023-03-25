@@ -1,0 +1,101 @@
+ 
+
+  "stateName": "West Bengal",
+  "dest": [
+    {
+      "desName": "Sandakphu Phalut Trek",
+      "desc": "Elevation: 3,636 meters, Difficulty: 60%, Sandakphu Phalut Trek: Magnificent views of four highest peaks in the world."
+    },
+    {
+      "desName": "Singalila Ridge Trek",
+      "desc":"Elevation: 3,657 meters, Difficulty: 50-60%, Journey through rhododendron forests and stunning views of Mount Everest and Kanchenjunga. "
+    },
+    {
+      "desName": "Neora Valley Trek",
+      "desc": "Elevation:3,152 meters, Difficulty: 40-50%, Journey through pristine forests and rare flora and fauna."
+    }
+  ]
+
+
+
+
+  "stateName": "UttaraKhand",
+  "dest": [
+    {
+      "desName": "Valley of Flowers Trek",
+      "desc": "Elevation: 3,858 meters, Difficulty: 30-40%, A colorful carpet of alpine flowers amidst the Himalayas."
+    },
+    {
+      "desName": "Roopkund Trek",
+     "desc": "Elevation: 5,029 meters, Difficulty: 65%,  A thrilling expedition to a skeleton lake."
+    },
+    {
+      "desName": "Kedarkantha Trek",
+      "desc": "Elevation: 3,810 meters, Difficulty: 45%,  A winter wonderland adventure in the Himalayas."
+    }
+  ]
+
+
+"stateName": "Sikkim",
+  "dest": [
+    {
+      "desName": "Goecha La Trek",
+      "desc": "Elevation: 4,940 meters, Difficulty: 60%, Majestic views of Kanchenjunga from high mountain pass."
+    },
+    {
+      "desName": "Dzongri Trek",
+      "desc": "Elevation: 4,200 meters, Difficulty: 40%,  Rhododendron forests, Himalayan peaks and moderate difficulty."
+    },
+     {
+      "desName": "Kanchenjunga Base Camp Trek",
+      "desc": "Elevation: 5,143 meters, Difficulty: 70%,  Rugged terrain, snowcapped peaks, challenging trek."
+    },
+ ]
+
+ "stateName": "Tamil Nadu",
+  "dest": [
+    {
+      "desName": "Kolli Hills Trek",
+      "desc": "Elevation: 1350 meters, Difficulty: 6-7%, Scenic mountain views and ancient temples."
+      },
+    {
+      "desName": "Nagalapuram Trek",
+      "desc": "Elevation: 800 meters, Difficulty: 6.5%, Scenic waterfall trek near Chennai"
+      },
+     {
+      "desName": "Meghamalai Trek",
+      "desc": "Elevation: 1,500 meters, Difficulty: 6.5-7%, Offbeat hill station trek"
+    },
+ ]
+
+
+ stateName": "Manipur",
+  "dest": [
+    {
+      "desName": "Mt. Koubru",
+      "desc": "Elevation: 2740 meters, Difficulty: 8%, Hike through dense forests and picturesque villages to reach the summit of Mt. Koubru"
+    },
+    {
+      "desName": "Shirui Kashong Peak",
+     "desc": "Elevation: 2825 meters, Difficulty: 6%, Embark on a moderate trek through the beautiful Dzukou Valley to summit the scenic Shirui Kashong Peak."
+    },
+    {
+      "desName": "Chingai Trail",
+      "desc": "Elevation: 1470 meters, Difficulty: 5%, Explore the lush forests and scenic villages of Manipur on the Chingai Trail ."
+    }
+  ]
+
+stateName": "Meghalaya",
+  "dest": [
+    {
+      "desName": "The Living Roots Bridge Trek",
+      "desc": "Elevation: 1500 meters, Difficulty: 4%, Experience the unique living roots bridges and stunning landscapes on this Meghalaya trek."
+    {
+      "desName": "David Scott Trail",
+     "desc": "Elevation: 1600 meters, Difficulty: 7%, Follow the footsteps of David Scott through the beautiful Khasi Hills in Meghalaya."
+    },
+    {
+      "desName": "Mawlyngot Trek",
+      "desc": "Elevation: 1814 meters, Difficulty: 5%, hike through picturesque landscapes to reach the summit of Mawlyngot in Meghalaya."
+    }
+  ]
