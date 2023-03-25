@@ -1,111 +1,217 @@
+"Andhra Pradesh":
+"dest": [
 {
-"stateName": "Andhra Pradesh",
-"desName": ["Araku Valley Trek", "Kondaveedu Trek", "Horsley Hills Trek"],
-"desc": ["Araku Valley Trek takes you through the stunning hills, lush green forests, and coffee plantations in Araku Valley.",
-"Kondaveedu Trek offers a panoramic view of the hills, valleys, and ancient forts in Andhra Pradesh.",
-"Horsley Hills Trek is known for its picturesque landscapes, trekking trails, and dense forests." ]
+"desName": "Araku Valley Trek",
+"desc": "Elevation: 910 meters, Difficulty: Easy, Trek through scenic valleys, coffee plantations, and waterfalls."
+},
+{
+"desName": "Nallamala Forest Trek",
+"desc":"Elevation: 800-1,000 meters, Difficulty: Moderate, Trek through dense forests, waterfalls, and ancient temples."
+},
+{
+"desName": "Kondapalli Forest Trek",
+"desc": "Elevation: 275 meters, Difficulty: Easy, Trek through thick forest cover, ancient forts, and scenic waterfalls."
 }
-
-{
-"stateName": "Arunachal Pradesh",
-"desName": ["Talle Valley Trek", "Bomdila-Tawang Trek", "Gorichen Peak Trek"],
-"desc": ["Talle Valley Trek is a moderate trek that offers stunning views of the Talle Valley and the surrounding peaks.",
-"Bomdila-Tawang Trek takes you through some of the most beautiful valleys, passes, and high-altitude lakes in Arunachal Pradesh.",
-"Gorichen Peak Trek is a challenging trek that takes you to the summit of the Gorichen Peak, the highest peak in Arunachal Pradesh." ]
-}
-
-{
-"stateName": "Assam",
-"desName": ["Pabitora Wildlife Sanctuary Trek", "Nameri National Park Trek", "Manas National Park Trek"],
-"desc": ["Pabitora Wildlife Sanctuary Trek takes you through the dense forests of Pabitora Wildlife Sanctuary, which is home to the Indian one-horned rhinoceros.",
-"Nameri National Park Trek offers a great opportunity to explore the lush green forests and diverse wildlife of the Nameri National Park.",
-"Manas National Park Trek takes you through the beautiful landscapes and dense forests of Manas National Park, which is home to tigers, elephants, and many other species of wildlife." ]
-}
-
-{
-"stateName": "Bihar",
-"desName": ["Rajgir Trek", "Pawapuri Trek", "Valmiki National Park Trek"],
-"desc": ["Rajgir Trek takes you through the scenic hills and valleys of Rajgir, which is known for its historical and religious significance.",
-"Pawapuri Trek takes you to the holy city of Pawapuri, which is known for its ancient temples and serene environment.",
-"Valmiki National Park Trek takes you through the dense forests and scenic landscapes of Valmiki National Park, which is home to tigers, leopards, and many other species of wildlife." ]
-}
-
-{
-"stateName": "Chhattisgarh",
-"desName": ["Bhoramdeo Jungle Trek", "Chitrakoot Falls Trek", "Barnawapara Wildlife Sanctuary Trek"],
-"desc": ["Bhoramdeo Jungle Trek takes you through the lush green forests and beautiful landscapes of Bhoramdeo Wildlife Sanctuary.",
-"Chitrakoot Falls Trek takes you to the majestic Chitrakoot Falls, which is known for its scenic beauty and tranquility.",
-"Barnawapara Wildlife Sanctuary Trek takes you through the dense forests and grasslands of Barnawapara Wildlife Sanctuary, which is home to a variety of wildlife, including tigers, leopards, and sloth bears." ]
-}
-
-Goa:
-{
-"stateName": "Goa",
-"desName": ["Dudhsagar Falls Trek", "Tambdi Surla Waterfall Trek", "Netravali Wildlife Sanctuary Trek"],
-"desc": ["The Dudhsagar Falls Trek takes you through the lush green forests and stunning waterfalls of the Western Ghats.", "The Tambdi Surla Waterfall Trek takes you to the picturesque Tambdi Surla Waterfall through dense forests.", "The Netravali Wildlife Sanctuary Trek is a great way to explore the beautiful wildlife and landscapes of Goa."]
-}
-
-Gujarat:
-{
-"stateName": "Gujarat",
-"desName": ["Saputara Trek", "Girnar Trek", "Siddhpur Trek"],
-"desc": ["The Saputara Trek takes you through the beautiful forests and hills of the Saputara Hill Station.", "The Girnar Trek takes you to the top of Mount Girnar, the highest peak in Gujarat, and offers breathtaking views of the surrounding landscape.", "The Siddhpur Trek takes you through the ancient town of Siddhpur and its beautiful temples and monuments."]
-}
-
-Haryana:
-{
-"stateName": "Haryana",
-"desName": ["Karna Lake Trek", "Morni Hills Trek", "Asola Bhatti Wildlife Sanctuary Trek"],
-"desc": ["The Karna Lake Trek takes you through the beautiful Karna Lake and surrounding hills.", "The Morni Hills Trek takes you through the stunning Morni Hills and offers breathtaking views of the surrounding landscape.", "The Asola Bhatti Wildlife Sanctuary Trek takes you through the beautiful wildlife sanctuary and its stunning landscapes."]
-}
-
-Himachal Pradesh:
-{
-"stateName": "Himachal Pradesh",
-"desName": ["Triund Trek", "Hampta Pass Trek", "Indrahar Pass Trek"],
-"desc": ["The Triund Trek takes you through the beautiful Dhauladhar Range and offers stunning views of the surrounding landscape.", "The Hampta Pass Trek takes you through the stunning Kullu Valley and offers breathtaking views of the Himalayas.", "The Indrahar Pass Trek takes you to the top of the Indrahar Pass and offers stunning views of the surrounding landscape."]
-}
-
-Jharkhand:
-{
-"stateName": "Jharkhand",
-"desName": ["Panchghagh Falls Trek", "Hazaribagh National Park Trek", "Dalma Wildlife Sanctuary Trek"],
-"desc": ["The Panchghagh Falls Trek takes you through the beautiful Panchghagh Falls and surrounding forests.", "The Hazaribagh National Park Trek takes you through the stunning Hazaribagh National Park and offers a chance to see the beautiful wildlife of the area.", "The Dalma Wildlife Sanctuary Trek takes you through the beautiful Dalma Wildlife Sanctuary and its stunning landscapes."]
-}
-
-Karnataka:
-{
-"stateName": "Karnataka",
-"desName": ["Kudremukh Trek", "Kodachadri Trek", "Brahmagiri Trek"],
-"desc": ["The Kudremukh Trek takes you through the beautiful Kudremukh National Park and offers stunning views of the surrounding landscape.", "The Kodachadri Trek takes you to the top of the Kodachadri Hill and offers breathtaking views of the surrounding landscape.", "The Brahmagiri Trek takes you through the stunning Brahmagiri Wildlife Sanctuary and its beautiful landscapes."]
-}
-
-{
-"stateName": "Kerala",
-"desName": ["Chembra Peak Trek", "Agasthyakoodam Trek", "Meesapulimala Trek"],
-"desc": [
-"Chembra Peak Trek is a popular trek in Wayanad, Kerala. The trek takes you through scenic tea plantations and a heart-shaped lake at the top of the peak.",
-"Agasthyakoodam Trek is a challenging trek in the Western Ghats. The trek takes you through dense forests and offers breathtaking views of the surrounding mountains.",
-"Meesapulimala Trek is a beautiful trek in Munnar, Kerala. The trek takes you through lush green forests and offers stunning views of the Western Ghats."
 ]
-}
 
+"Arunachal Pradesh":
+"dest": [
 {
-"stateName": "Madhya Pradesh",
-"desName": ["Pachmarhi Trek", "Satpura Trek", "Pench Tiger Reserve Trek"],
-"desc": [
-"Pachmarhi Trek is a scenic trek in the Satpura Range. The trek takes you through beautiful waterfalls, dense forests, and offers stunning views of the surrounding valleys.",
-"Satpura Trek is a challenging trek in the Satpura Range. The trek takes you through dense forests, deep gorges, and offers breathtaking views of the surrounding mountains.",
-"Pench Tiger Reserve Trek is a unique trek in Madhya Pradesh. The trek takes you through the Pench Tiger Reserve and offers the chance to spot tigers, leopards, and other wildlife."
-]
+"desName": "Tawang Trek",
+"desc": "Elevation: 3,748 meters, Difficulty: Moderate, Trek through serene lakes, lush meadows, and ancient monasteries."
+},
+{
+"desName": "Bomdila-Tawang Trek",
+"desc":"Elevation: 2,430 meters, Difficulty: Moderate, Trek through scenic landscapes, forests, and traditional villages."
+},
+{
+"desName": "Daporijo Trek",
+"desc": "Elevation: 1,600 meters, Difficulty: Moderate, Trek through dense forests, bamboo bridges, and remote tribal villages."
 }
+]
 
+"Assam":
+"dest": [
 {
-"stateName": "Maharashtra",
-"desName": ["Kalsubai Peak Trek", "Harishchandragad Trek", "Rajmachi Trek"],
-"desc": [
-"Kalsubai Peak Trek is a popular trek in Maharashtra. The trek takes you to the highest peak in the Western Ghats and offers stunning views of the surrounding mountains.",
-"Harishchandragad Trek is a challenging trek in the Sahyadri Range. The trek takes you through deep valleys, rocky terrain, and offers breathtaking views of the surrounding mountains.",
-"Rajmachi Trek is a beautiful trek in the Sahyadri Range. The trek takes you through lush green forests, ancient forts, and offers stunning views of the Western Ghats."
-]
+"desName": "Nameri National Park Trek",
+"desc": "Elevation: 200 meters, Difficulty: Easy, Trek through verdant forests, rare flora and fauna, and stunning views of Himalayan peaks."
+},
+{
+"desName": "Dibru-Saikhowa National Park Trek",
+"desc":"Elevation: 118 meters, Difficulty: Easy, Trek through lush forests, grasslands, and wetlands, and spot rare bird species."
+},
+{
+"desName": "Manas National Park Trek",
+"desc": "Elevation: 76-853 meters, Difficulty: Moderate, Trek through pristine forests, grasslands, and rare wildlife such as tigers, elephants, and rhinos."
 }
+]
+
+"Bihar":
+"dest": [
+{
+"desName": "Valmiki National Park Trek",
+"desc": "Elevation: 300 meters, Difficulty: Easy, Trek through dense forests, grasslands, and spot rare wildlife species such as tigers, leopards, and sloth bears."
+},
+{
+"desName": "Rajgir Hills Trek",
+"desc":"Elevation: 450 meters, Difficulty: Moderate, Trek through scenic hills, ancient ruins, and pilgrimage sites."
+},
+{
+"desName": "Munger Fort Trek",
+"desc": "Elevation: 200 meters, Difficulty: Easy, Trek through ancient forts, scenic hills, and pristine rivers."
+}
+]
+
+"Chhattisgarh": "",
+"dest": [
+{
+"desName": "Chitrakote Waterfall Trek",
+"desc": "Elevation: 100 meters, Difficulty: Easy, Trek to the picturesque Chitrakote Waterfall in Bastar district."
+},
+{
+"desName": "Kanger Valley Trek",
+"desc":"Elevation: Varies, Difficulty: Moderate, Trek through the Kanger Valley National Park and witness its unique flora and fauna."
+},
+{
+"desName": "Bhoramdeo Temple Trek",
+"desc": "Elevation: 450 meters, Difficulty: Easy, Trek to the ancient Bhoramdeo Temple and explore its intricate carvings and architecture."
+}
+]
+
+"Goa": "",
+"dest": [
+{
+"desName": "Dudhsagar Waterfall Trek",
+"desc": "Elevation: 320 meters, Difficulty: Moderate, Trek to the stunning Dudhsagar Waterfall and take a refreshing dip in its pool."
+},
+{
+"desName": "Tambdi Surla Trek",
+"desc":"Elevation: 200 meters, Difficulty: Easy, Trek through the dense Tambdi Surla Forest and explore the ancient Tambdi Surla Temple."
+},
+{
+"desName": "Netravali Wildlife Sanctuary Trek",
+"desc": "Elevation: Varies, Difficulty: Moderate, Trek through the scenic Netravali Wildlife Sanctuary and spot its rich biodiversity."
+}
+]
+
+"Gujarat": "",
+"dest": [
+{
+"desName": "Saputara Trek",
+"desc": "Elevation: 1,000 meters, Difficulty: Easy, Trek to the picturesque Saputara Hill Station and enjoy stunning views of the surrounding landscape."
+},
+{
+"desName": "Girnar Hill Trek",
+"desc":"Elevation: 1,100 meters, Difficulty: Moderate, Trek to the ancient Girnar Hill and visit its many temples and holy sites."
+},
+{
+"desName": "Shoolpaneshwar Wildlife Sanctuary Trek",
+"desc": "Elevation: Varies, Difficulty: Moderate, Trek through the Shoolpaneshwar Wildlife Sanctuary and explore its rich flora and fauna."
+}
+]
+
+"Haryana": "",
+"dest": [
+{
+"desName": "Kalesar National Park Trek",
+"desc": "Elevation: Varies, Difficulty: Moderate, Trek through the Kalesar National Park and spot its diverse wildlife."
+},
+{
+"desName": "Sultanpur National Park Trek",
+"desc":"Elevation: Varies, Difficulty: Easy, Trek through the Sultanpur National Park and spot its many resident and migratory birds."
+},
+{
+"desName": "Asola Bhatti Wildlife Sanctuary Trek",
+"desc": "Elevation: Varies, Difficulty: Easy, Trek through the Asola Bhatti Wildlife Sanctuary and explore its unique ecosystem."
+}
+]
+
+"Himachal Pradesh": [
+{
+"desName": "Hampta Pass Trek",
+"desc": "Elevation: 4,270 meters, Difficulty: 70%, Scenic trek that takes you through lush green valleys, stunning Himalayan landscapes, and high altitude campsites."
+},
+{
+"desName": "Pin Parvati Pass Trek",
+"desc":"Elevation: 5,319 meters, Difficulty: 90%, Challenging trek that takes you through remote areas of the Spiti and Parvati valleys and offers breathtaking views of snow-capped peaks and glaciers."
+},
+{
+"desName": "Triund Trek",
+"desc": "Elevation: 2,828 meters, Difficulty: 30%, Easy trek that takes you through dense forests and offers panoramic views of the Dhauladhar range."
+}
+],
+
+"Jharkhand": [
+{
+"desName": "Parasnath Hill Trek",
+"desc": "Elevation: 1,365 meters, Difficulty: 30-40%, Trek to the highest peak in Jharkhand, which is considered sacred by both Jains and Hindus and offers stunning views of the surrounding landscape."
+},
+{
+"desName": "Palamau Trek",
+"desc":"Elevation: 1,378 meters, Difficulty: 50%, Trek through the dense forests of the Palamau Tiger Reserve, which is home to tigers, leopards, and a variety of bird species."
+},
+{
+"desName": "Netarhat Trek",
+"desc": "Elevation: 1,128 meters, Difficulty: 40%, Trek through the scenic Netarhat Plateau, which is known for its lush forests, waterfalls, and stunning sunsets."
+}
+],
+
+"Karnataka": [
+{
+"desName": "Kumara Parvatha Trek",
+"desc": "Elevation: 1,712 meters, Difficulty: 80%, Challenging trek that takes you through dense forests, grasslands, and steep climbs to reach the second highest peak in Karnataka."
+},
+{
+"desName": "Tadiandamol Trek",
+"desc":"Elevation: 1,748 meters, Difficulty: 50%, Trek to the highest peak in Coorg and enjoy stunning views of the surrounding Western Ghats."
+},
+{
+"desName": "Kudremukh Trek",
+"desc": "Elevation: 1,894 meters, Difficulty: 60%, Trek through the Kudremukh National Park, which is known for its scenic beauty and rich biodiversity."
+}
+]
+
+"Kerala": [
+{
+"desName": "Chembra Peak",
+"desc": "Elevation: 2,100 meters, Difficulty: 70%, Trek through tea plantations and sholas to reach the heart-shaped lake at the summit."
+},
+{
+"desName": "Agasthyakoodam",
+"desc":"Elevation: 1,868 meters, Difficulty: 60-70%, Trek through tropical forests to reach the peak believed to be the abode of the sage Agastya."
+},
+{
+"desName": "Meesapulimala",
+"desc": "Elevation: 2,640 meters, Difficulty: 60%, Trek through the highest tea estates in the world to reach the summit with panoramic views of the Western Ghats."
+}
+],
+
+"Madhya Pradesh": [
+{
+"desName": "Pachmarhi",
+"desc": "Elevation: 1,352 meters, Difficulty: 50-60%, Trek through the lush forests of Satpura Range to reach the highest point in Madhya Pradesh."
+},
+{
+"desName": "Amarkantak",
+"desc":"Elevation: 1,048 meters, Difficulty: 50-60%, Trek through the forests and hills of Vindhya Range to reach the source of the rivers Narmada and Sone."
+},
+{
+"desName": "Dhoopgarh",
+"desc": "Elevation: 1,350 meters, Difficulty: 40-50%, Trek through the forests and grasslands of Satpura Range to reach the highest point in the state of Madhya Pradesh with breathtaking sunset views."
+}
+],
+
+"Maharashtra": [
+{
+"desName": "Kalsubai Peak",
+"desc": "Elevation: 1,646 meters, Difficulty: 70%, Trek through rocky terrain and dense forests to reach the highest point in Maharashtra with panoramic views of Sahyadri mountain range."
+},
+{
+"desName": "Harishchandragad",
+"desc":"Elevation: 1,421 meters, Difficulty: 60-70%, Trek through rugged terrain, deep valleys and waterfalls to reach the fort and temple at the summit with stunning views of Konkan and Western Ghats."
+},
+{
+"desName": "Rajmachi",
+"desc": "Elevation: 826 meters, Difficulty: 40-50%, Trek through the lush greenery of Sahyadri mountains to reach the fort and village at the summit with views of the Lonavala and Khandala valleys."
+}
+]
