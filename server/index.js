@@ -41,6 +41,15 @@ app.post('/state/new', (req, res) => {
 	res.json(newStateD);
 });
 
+/*fetching name of suggested places from MONGO ATLAS */
+
+const Suggestion = require('./models/suggestion');
+
+app.get('/sugges', async(req,res) => {
+    const suggest = await Suggestion.find();
+    res.json(suggest);
+});
+
 /*getting data from frontend */
 var stateDesc = "";
 var stateNa = "";
@@ -54,7 +63,7 @@ app.get('/dsec',(req,res)=>{
 });
 
 app.get('/stateD',(req,res)=>{
-    const url = "https://api.openweathermap.org/data/2.5/weather?q="+nameOfState+"&appid=803c9517aca4d380e945ea874a1494cf&units=metric";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q="+nameOfState+"&appid="+process.env.WEATHER_API_KEY+"&units=metric";
     https.get(url,function(response){
         response.on("data",function(data){
             const weather = JSON.parse(data);

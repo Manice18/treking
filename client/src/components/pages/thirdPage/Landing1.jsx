@@ -4,15 +4,22 @@ import { HelmetProvider,Helmet } from 'react-helmet-async';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import Hotel from './Hotel';
+import Suggest from './Suggest';
 
 
 
 const Landing1 = () =>{
   const navigate = useNavigate();
-  const [data,setData] = useState([])
+  const [data,setData] = useState([]);
+  const [suggesData, setSuggesData] = useState([{}]);
   useEffect(()=>{
-    axios.get('http://localhost:5000/stateD').then(res => setData(res.data)).catch(err => console.log(err))
+    axios.get('http://localhost:5000/stateD').then(res => {setData(res.data)
+console.log(res.data)}).catch(err => console.log(err));
+    axios.get('http://localhost:5000/sugges').then(res => { 
+        setSuggesData(res.data)}).catch(err=>console.log(err));
   },[]);
+    
 
   
   const [isFlipped, setIsFlipped] = useState(false);
@@ -33,10 +40,7 @@ const Landing1 = () =>{
       <Helmet>
         <style>
           {`
-          *{
-            font-family: Helvetica, sans-serif;
-            font-weight: bold;
-          }
+          
 body {
     margin: 0;
     padding: 0;
@@ -54,34 +58,32 @@ body {
     display: grid;
     position: relative;
     grid-template-columns: 2fr 400px;
-    height: 800px;
-    padding: 30px;
+    height: 450px;
+    padding: 15px;
     background: var(--primary-color);
 }
 
 .accessory{
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    padding: 10px ;
+    height: 400px;
 }
 .accessory-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     background:var(--primary-color);
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 50px;
     flex-wrap: wrap;
-    overflow: auto;
     color: #ffffff;
     
 }
 .accessory-container .equipments{
     background-image: url(https://images.unsplash.com/photo-1575844264771-892081089af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
     background-size: cover ;
-    width: 19rem;
+    width: 16rem;
     height: 100%;
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,9 +94,8 @@ body {
 .accessory-container .equipmentsList{
     background-color: white;
     color: black;
-    width: 19rem;
+    width: 16rem;
     height: 100%;
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,9 +106,8 @@ body {
 .accessory-container .transportation{
     background-image: url(https://images.unsplash.com/photo-1654287163076-d8654c1b8a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=675&q=80);
     background-size: cover ;
-    width: 19rem;
+    width: 16rem;
     height: 100%;
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,9 +117,8 @@ body {
 .accessory-container .Paragraph{
     background-image: url(https://images.unsplash.com/photo-1655593881985-eb42464018b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2811&q=80);
     background-size: cover ;
-    width: 19rem;
+    width: 16rem;
     height: 100%;
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,9 +128,8 @@ body {
 .accessory-container .Description{
     background-color: white;
     color: black;
-    width: 19rem;
+    width: 16rem;
     height: 100%;
-    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +140,7 @@ body {
     height: 50%;
     width: 340px;
     margin: 20px;
+    padding: 50px;
     border-radius: 20px;
    
 }
@@ -265,16 +264,26 @@ body {
     background:var(--color-accent);
 }
 
-.lower-part-cont .suggest .img{
-    background-image: url(https://images.unsplash.com/photo-1655593881985-eb42464018b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2811&q=80);
-    background-size: cover;
-}
+.image-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+       justify-content: center;
+    align-items: center;
+
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+  }
 
 
 .lower-part-cont p {
-    padding: 10px 0;
-    font-size: 1.25rem;
-    font-weight: bold;
+    padding: 0;
+}
+.lower-part-cont h5 {
+    padding: 0;
 }
 .suggest {
     display: flex;
@@ -299,6 +308,7 @@ body {
     width: 220px;
     height: 80px;
     color: black;
+    overflow: auto;
 }
 
 .hotels{
@@ -351,15 +361,14 @@ body {
         </div>
         <div className="grid-child accessory">
             <div className="main-container accessory-container">
-            <div
-                className={`${!isFlipped ? 'Paragraph':'Description'}`} onClick={handleClick} >
+                <div className={`${!isFlipped ? 'Paragraph':'Description'}`} onClick={handleClick} >
                     <p>{`${!isFlipped ? 'Whats there in '+data.stateNam+' ?' :data.state}`}</p>
                 </div>
                 <div className={`${!isFlipped1 ? 'equipments':'equipmentsList'}`} onClick={handleClick1}>
                     <p>{`${!isFlipped1 ? 'EQUIPMENTS': 'e'}`}</p>
                 </div>
                 <div className={`${!isFlipped2 ? 'transportation':'Description'}`} onClick={handleClick2}>
-                    <p>TRANSPORTATION</p>
+                    <p>THT</p>
                 </div>
         
             </div>
@@ -391,29 +400,19 @@ body {
                         </div>
                     </div>
                     <div className="lower-part-cont">
-                        <p>YOUR NEXT<br />ADVENTURE</p>
-                        <div className="suggest">
-                          <div className="img"></div>
-                          <div className="description">Hame bhi ghumne jana hain</div>
-                        </div>
-                        <div className="suggest">
-                          <div className="img"></div>
-                          <div className="description">Kash merako thikse aur css ata TnT</div>
-                        </div>
+                        <p>Your<br />ADVENTURE</p>
+                        <Suggest heading={suggesData[0].name} description={suggesData[0].description} imageUrl={suggesData[0].imagee}/>
+                        <Suggest heading={suggesData[1].name} description={suggesData[1].description} imageUrl={suggesData[1].imagee}/>
+                        <Suggest heading={suggesData[2].name} description={suggesData[2].description} imageUrl={suggesData[2].imagee}/>
+                        <Suggest heading={suggesData[3].name} description={suggesData[3].description} imageUrl={suggesData[3].imagee}/>
                       </div>
             </div>
         </div>
         <div className="grid-child hotels">
             <div className="main-container hotels-container">
-                <div className="hotel1">
-                    <div className="desc"><p>hotel sexy feeling dega</p></div>
-                </div>
-                <div className="hotel2">
-                    <div className="desc"><p>hotel sexy feeling dega</p></div>
-                </div>
-                <div className="hotel3">
-                    <div className="desc"><p>hotel sexy feeling dega</p></div>
-                </div>
+                <Hotel myClass='hotel1'/>
+                <Hotel myClass='hotel2'/>
+                <Hotel myClass='hotel3'/>
             </div>
         </div>
     </div>
