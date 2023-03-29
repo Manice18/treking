@@ -8,7 +8,7 @@ const Landing = () =>{
       <>
       <HelmetProvider>
             <Helmet>
-            <title>Destination</title>
+            <title>Landing</title>
                 <style>{`@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");

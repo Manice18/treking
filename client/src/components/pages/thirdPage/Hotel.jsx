@@ -3,7 +3,9 @@ import React from 'react'
 const Hotel = (props) => {
   return (
     <div className={props.myClass}>
-        <div className="desc"><p>hotel sexy feeling dega</p></div>
+        <div className="desc">
+        <h5>Hotel Name</h5>
+        <p>hotel description</p></div>
     </div>
   )
 }

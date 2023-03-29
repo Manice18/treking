@@ -2,23 +2,31 @@ import {FaHome} from 'react-icons/fa';
 import React, {useEffect, useState} from 'react';
 import { HelmetProvider,Helmet } from 'react-helmet-async';
 import axios from 'axios';
-import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import Hotel from './Hotel';
 import Suggest from './Suggest';
+import Weather from './Weather';
 
 
 
 const Landing1 = () =>{
+    const coordinates = () => {
+        const success = (position)=>{
+            console.log(position)
+        }
+        const error = ()=>{
+            console.error(error);
+        }
+        navigator.geolocation.getCurrentPosition(success,error);
+    }
   const navigate = useNavigate();
   const [data,setData] = useState([]);
-  const [suggesData, setSuggesData] = useState([{}]);
+  const [suggesData, setSuggesData] = useState();
+  const url = 'http://localhost:5000/stateD';
+const anotherUrl = 'http://localhost:5000/sugges';
   useEffect(()=>{
-    axios.get('http://localhost:5000/stateD').then(res => {setData(res.data)
-console.log(res.data)}).catch(err => console.log(err));
-    axios.get('http://localhost:5000/sugges').then(res => { 
-        setSuggesData(res.data)}).catch(err=>console.log(err));
-  },[]);
+    fetch(`${url}`).then(res=>res.json()).then(data => setData(data)).catch(err => console.error(err));
+  },[])
     
 
   
@@ -38,9 +46,12 @@ console.log(res.data)}).catch(err => console.log(err));
     return(
       <HelmetProvider>
       <Helmet>
+      <title>Details</title>
         <style>
           {`
-          
+          *{
+            font-family: Helventica;
+          }
 body {
     margin: 0;
     padding: 0;
@@ -365,10 +376,14 @@ body {
                     <p>{`${!isFlipped ? 'Whats there in '+data.stateNam+' ?' :data.state}`}</p>
                 </div>
                 <div className={`${!isFlipped1 ? 'equipments':'equipmentsList'}`} onClick={handleClick1}>
+                <div ></div>
                     <p>{`${!isFlipped1 ? 'EQUIPMENTS': 'e'}`}</p>
                 </div>
-                <div className={`${!isFlipped2 ? 'transportation':'Description'}`} onClick={handleClick2}>
-                    <p>THT</p>
+                <div className={`${!isFlipped2 ? 'transportation':'Description'}`} onClick={(e)=>{
+                    coordinates()
+                    handleClick2()
+                }}>
+                    <p>MAP</p>
                 </div>
         
             </div>
@@ -387,7 +402,7 @@ body {
                                 <h5 className="degree">{data.temp}</h5>
                             </div>
                             <div className="bottom">
-                                <div className='Pressure'>
+                                {/* <div className='Pressure'>
                                     Pressure <span>{data.pressure}</span>
                                 </div>
                                 <div className='humidity'>
@@ -395,16 +410,19 @@ body {
                                 </div>
                                 <div className='wind'>
                                     Wind Speed <span>{data.speed}</span>
-                                </div>
+                                </div> */}
+                                <Weather weatherDetails='Pressure' detail='Pressure' setDetail={data.pressure} />
+                                <Weather weatherDetails='humidity' detail='Humidity' setDetail={data.humidity} />
+                                <Weather weatherDetails='wind' detail='Wind Speed' setDetail={data.speed} />
                             </div>
                         </div>
                     </div>
                     <div className="lower-part-cont">
                         <p>Your<br />ADVENTURE</p>
-                        <Suggest heading={suggesData[0].name} description={suggesData[0].description} imageUrl={suggesData[0].imagee}/>
-                        <Suggest heading={suggesData[1].name} description={suggesData[1].description} imageUrl={suggesData[1].imagee}/>
-                        <Suggest heading={suggesData[2].name} description={suggesData[2].description} imageUrl={suggesData[2].imagee}/>
-                        <Suggest heading={suggesData[3].name} description={suggesData[3].description} imageUrl={suggesData[3].imagee}/>
+                         <Suggest heading="Kanchenjunga Base Camp Trek, Sikkim" description="Kanchenjunga’s dominating peak is so high that a trek to its base camp is itself a big-time adventure that keeps kicking the adrenaline rush" imageUrl="https://imgs.search.brave.com/_ecBdVW5zLAmGnJD6UY2Oko-TKapwfalvl7k84HslQM/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhyaWxsb3Bo/aWxpYS5jb20vaW1h/Z2UvdXBsb2FkL3Mt/LVRBN0JpT2VLLS0v/Y19maWxsLGZfYXV0/byxmbF9zdHJpcF9w/cm9maWxlLGhfODAw/LHFfYXV0byx3XzEz/MDAvdjEvaW1hZ2Vz/L3Bob3Rvcy8wMDAv/MTIzLzg4NC9vcmln/aW5hbC8xNTEzNDE5/NTM4X2sxLmpwZy5q/cGc_MTUxMzQxOTUz/Nw"/>
+                        <Suggest heading="Kuari Pass Trek, Uttarakhand" description="Quite famous among trekking enthusiasts, Kuari Pass Trek offers stunning vistas of the snow-capped peaks of the Greater Himalayan Range." imageUrl="https://imgs.search.brave.com/bGsg4RBzLw4zISUTP1naaOTMs4tgzGCm37n3t9cOAsk/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhyaWxsb3Bo/aWxpYS5jb20vaW1h/Z2UvdXBsb2FkL3Mt/LUVHcHFDX1hpLS0v/Y19maWxsLGZfYXV0/byxmbF9zdHJpcF9w/cm9maWxlLGhfODAw/LHFfYXV0byx3XzEz/MDAvdjEvaW1hZ2Vz/L3Bob3Rvcy8wMDAv/MTIzLzc4OC9vcmln/aW5hbC8xNTEzNDA1/Mjc4X19rdWFyaS1w/YXNzLXRyZWstYmFu/bmVyLmpwZy5qcGc_/MTUxMzQwNTI2OQ"/>
+                        <Suggest heading="Chadar Trek, Ladakh" description="One of the most stunning and exhilarating winter treks across the blue planet, the Chadar Trek is a thrilling expedition over the frozen Zanskar River." imageUrl="https://imgs.search.brave.com/P8WYq-Ce-ZG-oaGewui1029b6ijSnbqxIFdfuqCIRNo/rs:fit:1200:823:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS9waG90by83MzI2/NjkxNC9DaGFkYXIt/dHJlay5qcGc_d2lk/dGg9NzQ4JnJlc2l6/ZT00"/>
+                        <Suggest heading="Hampta Pass Trek, Himachal Pradesh" description="A person who loves to be in the lap of nature it is the time to trek in the dreamland of unpredictable terrains of Hampta Pass." imageUrl="https://imgs.search.brave.com/2C6sK31S3okXxR9bg7SLJAXJE7k7ZyfRZg9lm7lZpLo/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly90aGVj/dWx0dXJldHJpcC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTcvMTAvaGFtcHRh/LXBhc3MuanBn"/>
                       </div>
             </div>
         </div>
